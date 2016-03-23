@@ -1,0 +1,202 @@
+
+ html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed,
+   figure, figcaption, footer, header, hgroup,
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section { 
+    display: block;
+  }
+  body {
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  ol, ul { 
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+
+/*SKINNY BANNER SECTION*/
+
+
+#banner-text-group-large{
+	background-color: #e63900; 
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-right: 20%;
+	opacity: .7;
+}
+
+li.banner-text-items-large{
+	display:inline;
+	list-style: none;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 13px; 
+	color: white; 
+	letter-spacing: 3px;
+	padding-left: 0px;
+}
+
+.right-align{
+float:right;
+padding-right: 10px;
+}
+
+.left-align{
+float:left;
+padding-right: 10px;
+margin-left: 10px; 
+padding-left: 10px;
+margin-right: 20px
+}
+
+
+.spacing{
+ margin-left: 60px;
+ text-align: center;
+}
+
+/*end skinny banner*/ 
+
+
+
+/*THE MORE YOU SAVE SECTION*/
+
+#the-more-you-save{
+	display:none;
+}
+
+#more-you-buy-heading{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	margin-top:20px;
+	margin-bottom:20px;
+	letter-spacing: 3px;
+}
+
+.number-percent-off-bottom-group-left{
+padding-right: 0px;
+}
+
+.number-percent-off-bottom-group-center{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.number-percent-off-bottom-group-right{
+padding-left: 0px;
+}
+
+.percent-off-group{
+	padding-left: 0px;
+}
+
+.percent{
+	text-align: left;
+	padding-left:0px;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.off{
+	text-align: left;
+	padding-left:0px;
+	font-weight: 700;
+
+}
+
+.number{
+	font-size: 55px;
+	padding: 0px;
+	text-align: right;
+	font-weight: 700;
+
+}
+
+.bottom-text{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+span.lines{
+	margin-top: -15px;
+
+}
+
+.savemore{
+color:	#e63900; 
+font-weight: 500;
+text-decoration: underline;
+}
+
+.online-only{
+	color: gray;
+}
+/*end the more you save 
+*/
+
+.restrictions{
+	text-decoration: underline;
+	color:	black; 
+	text-decoration-color: silver;
+	text-align: center;
+	font-size: 10px;
+}
+
+
+
+@media screen and (max-width: 1023px){
+
+#skinny-banner{
+	display:none;
+}
+
+
+#the-more-you-save{
+	display:inline;
+}
+
+}
+
+
+@media screen and (max-width: 511px){
+#more-you-buy-heading{
+letter-spacing: 1.3px;
+    font-size: 14px;
+}
+.restrictions{
+	font-size: 8px;
+}
