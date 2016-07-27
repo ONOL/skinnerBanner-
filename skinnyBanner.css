@@ -52,7 +52,7 @@
 	background-color: #e63900; 
 	padding-top: 10px;
 	padding-bottom:10px;
-	margin-right: 20%;
+	text-align: center;
 	opacity: .7;
 }
 
@@ -65,19 +65,7 @@ li.banner-text-items-large{
 	color: white; 
 	letter-spacing: 3px;
 	padding-left: 0px;
-}
 
-.right-align{
-float:right;
-padding-right: 10px;
-}
-
-.left-align{
-float:left;
-padding-right: 10px;
-margin-left: 10px; 
-padding-left: 10px;
-margin-right: 20px
 }
 
 
